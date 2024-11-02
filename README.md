@@ -3,10 +3,11 @@
 [![Paper](https://img.shields.io/badge/Paper-red?&logo=arxiv)](https://arxiv.org/abs/2409.07841)
 [![Demo](https://img.shields.io/badge/Demo-green?&logo=youtube)](https://beilong-tang.github.io/TSELM.demo/)
 
-Official Implementation of TSELM: Target Speaker Extraction using Discrete Tokens and Language Models. 
+Official Implementation of TSELM: Target Speaker Extraction using Discrete Tokens and Language Models.
 
-To refer to the model class, check [exp/tselm/model.py](./exp/tselm/model.py) directly. Note 
-that the mixed audio is clipped to length 48080 (3.05s x 16khz) and reference speech is clipped to 64080 (4.05s x 16khz) for training, respectively. 
+Currently, this repository only provides inference code. The complete training code will be open-sourced after the paper revisions are finalized.
+
+To refer to the model class, check [models](./models/) directly. 
 
 ## Abstract
 We propose TSELM, a novel target speaker extraction network that leverages discrete tokens and language models.
